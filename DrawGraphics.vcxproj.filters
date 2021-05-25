@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\cgraphics">
+      <UniqueIdentifier>{6e148c65-c2ea-4434-84ce-2e157a3b4be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cgraphics">
+      <UniqueIdentifier>{a7d9cfd6-dc03-4098-b2e6-2be2a3034367}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cgraphics\cgrcolor.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgrlinestyle.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgrmousepoint.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgrpoint.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgrrect.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cvideo_software.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\igraphics.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\ivideo.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cvideo_windows.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cwnd_graphics.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cdialog_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\ctranslator.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgraphics.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cgraphics\cgrdata.cpp">
+      <Filter>Source Files\cgraphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgraphics\cgraphics.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrcolor.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrdata.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrlinestyle.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrmousepoint.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrpoint.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cgrrect.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cvideo_software.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\igraphics.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\ivideo.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cvideo_windows.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\cwnd_graphics.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cdialog_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cgraphics\ctranslator.h">
+      <Filter>Header Files\cgraphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
